@@ -1,0 +1,84 @@
+.header-container {
+  background: #fff;
+  border-radius: 10px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  padding: 0 30px;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 99999;
+  -webkit-transform: translateY(50px);
+  transform: translateY(50px);
+}
+a {
+  font-weight: 600;
+  outline: none !important;
+  cursor: pointer;
+  color: rgb(2, 2, 129);
+  text-decoration: none;
+  background-color: transparent;
+}
+.header-container a:hover {
+  color: #e83e8c;
+}
+.header-container a {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: inline-block;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  /* text-transform: capitalize; */
+  padding-left: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.header-container button {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: inline-block;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  /* text-transform: capitalize; */
+  padding-left: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+button:focus:not(:focus-visible) {
+  outline: 0;
+}
+button:focus:not(:focus-visible) {
+  /* outline: 0; */
+}
+.header-container a {
+  /* padding-top: 25px; */
+  padding-bottom: 10px;
+  /* display: inline-block; */
+  transition: 0.4s;
+  /* text-transform: capitalize; */
+  /* padding-left: 40px; */
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+element.style {
+}
+.navbar {
+  margin: auto;
+  width: 100vw;
+}
+
+@media only screen and (max-width: 640px) {
+  .w-full.mt-12.md\:mt-0.md\:w-6\/12 {
+    text-align: center;
+  }
+}

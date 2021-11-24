@@ -1,0 +1,15 @@
+.login-section {
+  background-color: #369efd;
+}
+.login-box {
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 8.135px 18.271px 40px 0 rgb(0 0 0 / 8%);
+  padding: 60px 50px 75px;
+  transition: all 0.4s;
+}
+@media only screen and (max-width: 640px) {
+  .login-box {
+    border-radius: 0px;
+  }
+}

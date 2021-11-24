@@ -1,0 +1,28 @@
+/* service box start */
+
+.service-box {
+  border: 1px solid #3672bc;
+  border-radius: 5px;
+  padding: 60px 47px 70px;
+  margin-top: 30px;
+  transition: all 0.5s;
+  background: transparent;
+  min-height: 430px;
+}
+.service-box:hover {
+  background: #1259b0;
+  cursor: cell;
+  border-color: transparent;
+}
+.service-box span {
+  transition: all 0.5s;
+}
+.service-box:hover span {
+  color: #fc5185;
+}
+
+@media only screen and (max-width: 640px) {
+  .service-box {
+    padding: 30px 15px;
+  }
+}

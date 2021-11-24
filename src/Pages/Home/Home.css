@@ -1,0 +1,101 @@
+.home-section {
+  background: #004caa;
+}
+.appointment-btn {
+  height: 61px;
+  text-align: center;
+  line-height: 55px !important;
+  padding: 0 55px;
+  background: #fc5185;
+  position: relative;
+  border-radius: 3px;
+  transition: all 0.4s ease;
+  font-weight: bold;
+  color: white;
+}
+.appointment-btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid rgb(182, 180, 180);
+}
+.learn-btn {
+  border: 1px solid rgb(182, 180, 180);
+  border: 1px solid #fff;
+  height: 61px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 55px !important;
+  padding: 0 55px;
+  background: transparent;
+  position: relative;
+  border-radius: 3px;
+  transition: all 0.4s ease;
+}
+.learn-btn:hover {
+  border: 1px solid #fc5185;
+  background: #fc5185;
+}
+/* box section */
+.single-box {
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 8.135px 18.271px 40px 0 rgb(0 0 0 / 8%);
+  padding: 60px 50px 75px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.single-box:hover {
+  transform: translateY(-10px);
+}
+
+/* info-section */
+
+.info-section {
+  background-color: #fff;
+  box-shadow: 8.135px 18.271px 40px 0 rgb(0 0 0 / 8%);
+  position: relative;
+  overflow: hidden;
+}
+
+.single-doctor {
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 8.135px 18.271px 40px 0 rgb(0 0 0 / 8%);
+  transition: 0.4s;
+}
+.doctor-profile {
+  border-radius: 50%;
+  width: 217px;
+  height: 217px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+}
+.doctor-profile:before {
+  background: #fc5185;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  z-index: -1;
+  border-radius: 50%;
+  top: -1px;
+}
+.doctor-profile img {
+  position: absolute;
+  left: 54%;
+  bottom: -5px;
+  transform: translateX(-50%);
+  z-index: 4;
+}
+.single-doctor:hover {
+  transform: translateY(-10px);
+}
+.doctor-hover {
+  transition: all 0.4s;
+}
+.single-doctor:hover .doctor-hover {
+  color: #fc5185;
+}
